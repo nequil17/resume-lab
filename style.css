@@ -1,9 +1,32 @@
-* {
-    margin: 0; 
-    padding: 0;
+.box-blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+.box-green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+.box-red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+.box-yellow {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
 }
 
-div.name {
-    background: 
-    url('https://en.wikipedia.org/wiki/Lil_Jon#/media/File:Lil_Jon.jpg') right center;
-} 
+.football {
+    margin: 100px 100px 100px 100px;
+}
