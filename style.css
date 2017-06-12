@@ -1,8 +1,6 @@
 body {
-    margin-top: 0rem;
-    margin-right: 35rem;
-    margin-bottom: 0rem;
-    margin-left: 35rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .name {
@@ -49,18 +47,47 @@ h1 {
 }
 
 .information {
-    width: 250px;
+    width: 249px;
     border: 5px solid black;
-    padding: 75px;
+    padding: 75px 75px 3px 75px;
     float: right;
     bottom: 332px;
-    left: 115px;
+    right: 135px;
     position: relative;
 }
 
 .football-container {
     width: 33%;
 }
+
 .gallery {
     clear: both;
+}
+
+.contain {
+    float: left;
+    width: 50%;
+    margin-bottom: 5em;
+}
+
+.bio {
+    clear: both;
+}
+.contact {
+    padding-bottom: 70px;
+}
+form {
+    margin-left: 400px;
+}
+input {
+    height: 30px;
+    width: 500px;
+    display: block;
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    color: grey;
+    float: center;
+}
+.comment {
+    height: 30px;
 }
